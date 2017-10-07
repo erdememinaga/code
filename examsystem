@@ -1,0 +1,31 @@
+puts "midterm"
+
+midtermm = gets.chomp
+
+puts "final"
+
+final = gets.chomp
+
+avarage = midtermm.to_i*4/10+final.to_i*6/10
+puts "result"
+puts avarage
+if avarage > 60 && final.to_i > 50 
+    
+    puts "#{avarage}wtf how did you pass the exam"
+
+else
+
+   puts "you should pass the make-up exam, tell me your make-up exam note"
+   büt = gets.chomp
+   
+      if 
+       büt.to_i >= 50
+       
+       puts "you are successful"
+   
+   else
+       puts "Congratulations, you did not pass the exam"
+   
+   end 
+  end 
+  
