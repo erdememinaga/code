@@ -1,0 +1,67 @@
+bmg = 3.5
+bmg_agirlik = 3
+
+bmg_ort = bmg * bmg_agirlik
+
+
+pg = 3.5
+pg_agirlik=3
+
+pg_ort = pg * pg_agirlik
+
+
+ayrık = 3.5
+ayrık_agirlik = 3
+
+ayrık_ort= ayrık * ayrık_agirlik
+
+saglık = 3.5
+saglık_agirlik= 2
+
+saglık_ort= saglık * saglık_agirlik
+
+
+fizik = 3.5
+fizik_agirlik= 3
+
+fizik_ort= fizik * fizik_agirlik
+
+mat = 3.5
+mat= mat_agirlik= 4
+
+mat_ort= mat * mat_agirlik
+
+
+ing = 3.5
+ing_agirlik= 2
+
+ing_ort= ing * ing_agirlik
+
+yano=(bmg_ort + pg_ort+ayrık_ort+saglık_ort+fizik_ort+mat_ort+ing_ort)/(bmg_agirlik+pg_agirlik+ayrık_agirlik+saglık_agirlik+fizik_agirlik+mat_agirlik+ing_agirlik)
+
+if yano == 4
+puts "yano ort AA"
+
+elsif yano >= 3.5 
+puts "yano ort BA"
+
+elsif yano >= 3 
+puts "yano ort BB"
+
+elsif yano >= 2.5
+puts "yano ort CB"
+
+elsif yano >= 2 
+puts "yano ort CC"
+
+elsif yano >= 1.5 
+puts "yano ort DC"
+
+elsif yano >= 1
+puts "yano ort DD"
+
+elsif yano >= 0
+puts "yano ort FF"
+
+end
+
